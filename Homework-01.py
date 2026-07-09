@@ -33,7 +33,7 @@ def main() -> None:
     print("students:")
     for student in students:
         print_full_name(student["first_name"], student["last_name"])
-    print("age average is " + str(average(ages)))
+    print("age average would be " + str(average(ages)))
 
 main()
 
